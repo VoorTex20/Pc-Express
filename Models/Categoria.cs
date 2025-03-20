@@ -6,5 +6,7 @@
         public string CategoriaNome { get; set; }
         public string descricao { get; set; }
 
+        public List<Pecas> Peças { get; set; }
+
     }
 }
